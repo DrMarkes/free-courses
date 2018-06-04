@@ -17,8 +17,7 @@ if (a.length == b.length) {
                 break;
             }
         }
-    }
-    
+    } 
 }
 
 process.stdout.write(result);
