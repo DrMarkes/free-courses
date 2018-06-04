@@ -8,4 +8,4 @@ while (b != 0) {
     b = c;
 }
 
-process.stdout.write(a);
+process.stdout.write(a.toString());
