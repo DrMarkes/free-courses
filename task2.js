@@ -20,4 +20,4 @@ if (a.length == b.length) {
     } 
 }
 
-process.stdout.write(result);
+process.stdout.write(result.toString());
