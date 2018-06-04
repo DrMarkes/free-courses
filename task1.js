@@ -1,4 +1,4 @@
-let n = process.argv[2];
+var n = process.argv[2];
 
-let result = n.replace(/[ркн]/gi, '');
-console.log(result);
+var result = n.replace(/[ркн]/gi, '');
+process.stdout.write(result);
