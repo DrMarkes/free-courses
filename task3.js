@@ -1,8 +1,6 @@
-'use strict';
-
-let a = process.argv[2];
-let b = process.argv[3];
-let c = 0;
+var a = process.argv[2];
+var b = process.argv[3];
+var c = 0;
 
 while (b != 0) {
     c = a % b;
@@ -10,4 +8,4 @@ while (b != 0) {
     b = c;
 }
 
-console.log(a);
+process.stdout.write(a);
